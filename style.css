@@ -22,7 +22,12 @@ body
     padding:20px 100px;
    
 }
+.h1
+{
+   text-align: center;
 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .container:after
 {
     content: '';
@@ -30,7 +35,7 @@ body
     top: 0;
     width: 100%;
     height: 100%;
-  color: aliceblue;
+    background: url(../Responsive-Form/img/plage1.jpg) no-repeat center;
     background-size: cover;
     z-index: -1;
     filter: blur(100px);
@@ -39,6 +44,7 @@ body
 
 .contact-box
 {
+    
     max-width: 850px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
